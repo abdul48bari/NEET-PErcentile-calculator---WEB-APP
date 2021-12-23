@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="text">
+		<h1>NEET Percentile Calculator (Based on Marks)</h1>
+	</div>
+    <div class="calc-body">
+        <div class="result">
+            <h1>Result</h1>
+            <div class="show">
+                <h2>Total:<span id="total"></span></h2>
+                <br>
+                <h2>Percentage:<span id="percentage"></span></h2>
+                <br>
+            </div>
+        </div>
+        <div class="inp">
+            <div class="main">
+                <input type="number" name="" id="Physics" placeholder="Physics (MAX:180)"><br>
+                <input type="number" name="" id="Chemistry" placeholder="Chemistry (MAX:180)"><br>
+                <input type="number" name="" id="Zoology" placeholder="Zoology (MAX:180)"><br>
+                <input type="number" name="" id="Botany" placeholder="Botany (MAX:180)"><br>
+                <input type="number" name="" id="Topper's Mark" placeholder="Topper's Mark"><br>
+                <button onclick="getResult()">Calculate Result</button>
+            </div>
+        </div>
+        <div class="result-show">
+            <h1 id="resultShow"></h1>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
